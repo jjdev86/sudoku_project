@@ -1,6 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import Board from './board.jsx';
+import '../main.css';
 
 class App extends Component {
     constructor() {
@@ -12,14 +13,17 @@ class App extends Component {
 
     render() {
         return (
-            <div>
+            <div className="container">
                 <h3>Soduko</h3>
-                <table>
-                <Board/>
+                <div className="table-container">
+                <table className="board">
+                <Board />
                 {/* <Board start={28} end={54}/>
                 <Board start={55} end={81}/> */}
 
                 </table>
+
+                </div>
             </div>
         )
     }

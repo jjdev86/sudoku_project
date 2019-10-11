@@ -1,0 +1,66 @@
+.container {
+    background: grey;
+    height: 600px;
+}
+
+.table-container {
+    background: green;
+    height: 300px;
+}
+.board {
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 40px;
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid red;
+}
+/* td {
+    border: 1px solid black;
+} */
+input {
+    width: 25px;
+    height: 25px;
+    padding: 0 0;
+}
+/* table {border-collapse: collapse;} */
+tbody{
+
+    border: 2px solid black;
+
+    border-spacing: 0px; 
+}
+tr .a-top-border {
+    display: block;
+    border-top: 2px solid red;
+}
+
+tr[id="3"], tr[id="6"] {
+    border-top: 2px solid black;
+}
+
+td[id="3"], td[id="6"] {
+    border-left: 2px solid black;
+}
+td {
+    padding: 0px 0px;
+    border: 1px solid grey;
+}
+tr{
+    padding: 0px 0px;
+}
+/* .a-top-border {
+
+ border-top: 2px solid red;
+
+}
+.a-bottom-border {
+
+    border-bottom: 2px solid red;
+
+} */
